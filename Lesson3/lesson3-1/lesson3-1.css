@@ -1,0 +1,30 @@
+body{
+    margin: 2%;
+}
+header{
+    height: 60vh;
+    background-color: blue;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+section{
+    height: 50vh;
+    width: 30%;
+    background-color: darkblue;
+}
+footer{
+    height: 60vh;
+    background-color: blue;
+}
+p{
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
