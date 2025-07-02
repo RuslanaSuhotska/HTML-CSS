@@ -1,0 +1,16 @@
+div.lists1>ul>li:nth-child(even){
+    color:pink;
+}
+div.lists2>ul>li:nth-child(odd){
+    font-size: 22px;
+}
+div.lists3>ul>li:nth-child(2n+4)::after{
+    content:'!';
+}
+div.lists4>ul>li:last-of-type{
+    color:violet;
+}
+div.lists5>ul>li:first-letter{
+    color:red;
+    font-size:25px;
+}
