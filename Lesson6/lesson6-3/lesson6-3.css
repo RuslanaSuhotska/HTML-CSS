@@ -1,0 +1,103 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-registration{
+    border: 1px solid gainsboro;
+    height: 50vh;
+    width: 400px;
+}
+    .form-registration form{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+        input[type=text], input[type=password] {
+            width: 300px;
+            height: 30px;
+            margin: 15px;
+        }
+        h1{
+                font-family: "Lobster", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            display:flex ;
+            justify-content:center;
+            align-items:  center;
+        }
+        h2{
+            display:flex ;
+            justify-content:center;
+            align-items:  center;
+        }
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: darkslateblue;
+    font-weight: 700;
+}
+     button {
+         border:none;
+         background-color: white;
+         color:darkslateblue;
+         font-weight: 700;
+         padding-left: 150px;
+         margin-top: 10px;
+
+
+    }
+
+        input[type=submit] {
+            width: 300px;
+            height: 40px;
+            margin: 15px;
+            color: white;
+            background-color: rgba(2, 2, 255, 0.42);
+            border-radius: 10px;
+            border:  none;
+
+        }
+.footer{
+    border: 1px solid gainsboro;
+    height: 10vh;
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
+
+}
+.footer a{
+    text-decoration: none;
+    color: blue;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+
