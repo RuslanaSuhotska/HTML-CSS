@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+.tool{
+    width: 319px;
+    height: 492px;
+    flex-shrink: 0;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.buttle{
+    width: 319px;
+    height: 492px;
+    flex-shrink: 0;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.chessboard{
+    width: 319px;
+    height: 492px;
+    flex-shrink: 0;
+    border: 4px solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+p{
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+h1{
+    color: #000;
+    font-family: Inter, sans-serif ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.tool-img{
+    height: 100px;
+    width: 100px;
+    border:  4px solid #554C4C;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+}
+.buttle-img{
+    height: 100px;
+    width: 100px;
+    border:  4px solid #554C4C;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+}
+.chessboard-img{
+    height: 100px;
+    width: 100px;
+    border: 4px solid #65856E;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+}
